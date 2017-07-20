@@ -5,11 +5,12 @@
 ** Login   <the.psychopath@epitech.net>
 ** 
 ** Started on  Mon Oct 10 20:13:44 2016 Alexandre Di.rosa
-** Last update Tue Oct 11 16:23:12 2016 Alexandre Di.rosa
+** Last update Tue Dec 20 13:11:35 2016 Alexandre Di.rosa
 */
+
 #include<stdlib.h>
 
-int	*my_strstr(char *str, char *to_find)
+int	my_strstr(char *str, char *to_find)
 {
   int	i;
   int	n;
@@ -25,13 +26,13 @@ int	*my_strstr(char *str, char *to_find)
 	  if (to_find[n] == '\0')
 	    {
 	      i = i - n;
-	      return (&str[i]);
+	      return (i);
 	    }
 	}
       i = i - n;
       if (to_find[n] == '\0')
-	  return (&str[i]);
+	  return (i);
       i = i + 1;
     }
-  return (NULL);
+  return (-1);
 }

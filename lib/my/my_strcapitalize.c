@@ -5,7 +5,7 @@
 ** Login   <the.psychopath@epitech.net>
 ** 
 ** Started on  Tue Oct 11 09:02:18 2016 Alexandre Di.rosa
-** Last update Tue Oct 11 14:05:59 2016 Alexandre Di.rosa
+** Last update Tue Dec 20 13:11:05 2016 Alexandre Di.rosa
 */
 
 char    *my_strlowcase(char *str)

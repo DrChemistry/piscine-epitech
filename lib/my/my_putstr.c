@@ -5,18 +5,20 @@
 ** Login   <the.psychopath@epitech.net>
 ** 
 ** Started on  Thu Oct  6 18:49:39 2016 Alexandre Di.rosa
-** Last update Fri Oct  7 13:36:07 2016 Alexandre Di.rosa
+** Last update Sun Dec 18 21:59:55 2016 Alexandre Di.rosa
 */
+
+#include <unistd.h>
+
+void	my_putchar(char c);
+int	my_strlen(char *);
 
 int	my_putstr(char *str)
 {
   int	i;
 
   i = 0;
-  while (str[i] != '\0')
-    {
-      my_putchar(str[i]);
-      i = i + 1;
-    }
+  i = my_strlen(str);
+  write(1, str, i);
   return (0);
 }

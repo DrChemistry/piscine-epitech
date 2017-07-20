@@ -5,16 +5,15 @@
 ** Login   <the.psychopath@epitech.net>
 ** 
 ** Started on  Thu Oct  6 20:35:40 2016 Alexandre Di.rosa
-** Last update Fri Oct  7 13:35:55 2016 Alexandre Di.rosa
+** Last update Tue Dec 20 13:07:44 2016 Alexandre Di.rosa
 */
 
-int my_swap(int *a, int *b)
+int	my_swap(int *a, int *b)
 {
-  int c;
+  int	c;
 
   c = *a;
   *a = *b;
   *b = c;
-
   return (0);
 }

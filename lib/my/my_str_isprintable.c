@@ -5,7 +5,7 @@
 ** Login   <the.psychopath@epitech.net>
 ** 
 ** Started on  Tue Oct 11 13:32:47 2016 Alexandre Di.rosa
-** Last update Tue Oct 11 13:32:50 2016 Alexandre Di.rosa
+** Last update Sat Dec 10 12:26:27 2016 Alexandre Di.rosa
 */
 
 int     my_str_isprintable(char *str)
@@ -15,7 +15,7 @@ int     my_str_isprintable(char *str)
   i = 0;
   while (str[i] != '\0')
     {
-      if (str[i] >= ' ' && str[i] <= '126')
+      if (str[i] >= ' ' && str[i] <= '~')
 	{
 	  i = i + 1;
 	}

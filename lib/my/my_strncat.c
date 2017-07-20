@@ -5,13 +5,15 @@
 ** Login   <the.psychopath@epitech.net>
 ** 
 ** Started on  Wed Oct 12 09:46:37 2016 Alexandre Di.rosa
-** Last update Wed Oct 12 09:46:41 2016 Alexandre Di.rosa
+** Last update Tue Dec 20 13:08:57 2016 Alexandre Di.rosa
 */
 
-char *my_strncat(char *dest, char *src, int nb)
+void	my_putstr(char *);
+
+char	*my_strncat(char *dest, char *src, int nb)
 {
-  int i;
-  int n;
+  int	i;
+  int	n;
 
   i = 0;
   n = 0;

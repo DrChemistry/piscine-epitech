@@ -5,13 +5,13 @@
 ** Login   <the.psychopath@epitech.net>
 ** 
 ** Started on  Wed Oct 12 08:59:13 2016 Alexandre Di.rosa
-** Last update Wed Oct 12 09:27:18 2016 Alexandre Di.rosa
+** Last update Tue Dec 20 13:09:17 2016 Alexandre Di.rosa
 */
 
-char *my_strcat(char *dest, char *src)
+char	*my_strcat(char *dest, char *src)
 {
-  int i;
-  int n;
+  int	i;
+  int	n;
 
   i = 0;
   n = 0;

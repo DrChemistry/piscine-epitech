@@ -5,10 +5,14 @@
 ** Login   <the.psychopath@epitech.net>
 ** 
 ** Started on  Fri Oct  7 07:37:22 2016 Alexandre Di.rosa
-** Last update Wed Oct 12 19:00:21 2016 Alexandre Di.rosa
+** Last update Tue Dec 20 13:10:48 2016 Alexandre Di.rosa
 */
 
-int my_put_nbr(int nb)
+int	negmax(void);
+
+void	my_putchar(char c);
+
+int	my_put_nbr(int nb)
 {
   if (nb == -2147483648)
     negmax();
@@ -28,7 +32,7 @@ int my_put_nbr(int nb)
 }
 
 
-int negmax ()
+int	negmax ()
 {
   my_putchar('-');
   my_putchar('2');

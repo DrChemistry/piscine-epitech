@@ -5,8 +5,10 @@
 ** Login   <the.psychopath@epitech.net>
 ** 
 ** Started on  Wed Oct 12 20:16:21 2016 Alexandre Di.rosa
-** Last update Wed Oct 12 20:17:17 2016 Alexandre Di.rosa
+** Last update Sat Dec 10 12:32:14 2016 Alexandre Di.rosa
 */
+
+#include <unistd.h>
 
 void my_putchar(char c)
 {

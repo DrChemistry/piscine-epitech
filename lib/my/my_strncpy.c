@@ -5,10 +5,10 @@
 ** Login   <the.psychopath@epitech.net>
 ** 
 ** Started on  Mon Oct 10 15:15:21 2016 Alexandre Di.rosa
-** Last update Tue Oct 11 16:18:00 2016 Alexandre Di.rosa
+** Last update Sat Dec 10 12:27:21 2016 Alexandre Di.rosa
 */
 
-int	my_strncpy(char *dest, char *src, int n)
+char	*my_strncpy(char *dest, char *src, int n)
 {
   int	i;
 
